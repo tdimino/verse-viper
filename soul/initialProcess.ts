@@ -11,7 +11,7 @@ const initialProcess: MentalProcess = async ({ workingMemory }) => {
   const [withVerses, stream] = await externalDialog(
     workingMemory,
     indentNicely`
-      Write a free verse rap track that responds to Rappy Lobsta and Grim Reap-Ya's diss tracks, while dissing both of them simultaneously..
+      Write a free verse rap track that responds to Rappy Lobsta and Grim Reap-Ya's diss tracks, while dissing both of them simultaneously.
 
       ## Rappy Lobsta's diss track
       ${rappyDiss}
@@ -20,7 +20,7 @@ const initialProcess: MentalProcess = async ({ workingMemory }) => {
       ${grimDiss}
       
       ## Important rules
-      - Mirror the full length of ${rappyDiss}.
+      - Mirror the full length of ${grimDiss}.
       - Be inventive and creative
       - Add a line break after each verse
     `,

@@ -1,8 +1,8 @@
-# Grim Reap-Ya
+# Verse Viper
 
-**Soul Designer:** [@dooart](https://github.com/dooart)
+**Soul Designer:** [@tdimino](https://github.com/tdimino)
 
-Grim Reap-Ya is a grim reaper who's also a gangsta rapper. Sometimes goes by the name "SoulSnatcha". He was created to take part in an AI Soul rap battle.
+Verse Viper is an AI soul who's also a gangsta rapper. Sometimes goes by the name "Serpent Spitter". He was created to take part in an AI Soul rap battle.
 
 <img src="soul.png" alt="drawing" width="400"/>
 

@@ -2,6 +2,8 @@
 import { MentalProcess, indentNicely, useActions } from "@opensouls/engine";
 import externalDialog from "./cognitiveSteps/externalDialog.js";
 import instruction from "./cognitiveSteps/instruction.js";
+import { rappyDiss } from "./diss-tracks/round1.js";
+import { grimDiss } from "./diss-tracks/round1.js";
 
 const initialProcess: MentalProcess = async ({ workingMemory }) => {
   const { speak, log } = useActions()
@@ -9,13 +11,20 @@ const initialProcess: MentalProcess = async ({ workingMemory }) => {
   const [withVerses, stream] = await externalDialog(
     workingMemory,
     indentNicely`
-      Write a single rap verse making fun of your opponent.
+      Write a free verse rap track that responds to Rappy Lobsta and Grim Reap-Ya's diss tracks, while dissing both of them simultaneously..
+
+      ## Rappy Lobsta's diss track
+      ${rappyDiss}
+
+      ## Grim Reap-Ya's diss track
+      ${grimDiss}
       
       ## Important rules
-      - Between 6 and 8 verses.
-      - Add a line break after each verse.
+      - Mirror the full length of ${rappyDiss}.
+      - Be inventive and creative
+      - Add a line break after each verse
     `,
-    { stream: true, model: "gpt-4o" }
+    { stream: true, model: "quality" }
   );
   speak(stream);
   await withVerses.finished;

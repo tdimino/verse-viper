@@ -1,9 +1,9 @@
 {
-  "name": "grimreapya",
+  "name": "verse-viper",
   "version": "0.0.1",
   "type": "module",
   "private": true,
-  "description": "A blank AI soul built for the OPEN SOULS Soul Engine",
+  "description": "An AI soul who hisses and smack-talks his rapper opponents.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

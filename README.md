@@ -1,18 +1,15 @@
-The Soul Engine
-=================
+# Grim Reap-Ya
 
-The **Soul Engine** is a powerful tool for creating, developing, and deploying AI souls. Souls are dynamic, agentic, and stateful entities that are steerable by the developer, enabling the creation of engaging user and player experiences interacting with the souls.
+**Soul Designer:** [@dooart](https://github.com/dooart)
 
-# ⚡ QuickStart
+Grim Reap-Ya is a grim reaper who's also a gangsta rapper. Sometimes goes by the name "SoulSnatcha". He was created to take part in an AI Soul rap battle.
 
-This project contains a complete Soul [Blueprint](https://docs.souls.chat). To get started, simply go to the root directory and run
+<img src="soul.png" alt="drawing" width="400"/>
+
+## 👾 Running the soul using the Soul Engine web interface
+
+Execute this command in the project root:
 
 ```bash
 npx soul-engine dev
 ```
-
-which will connect your soul to the engine and open the Soul Engine web interface.
-
-# 📖 Documentation
-
-Full documentation for the Soul Engine API is located [here](https://docs.souls.chat)!
